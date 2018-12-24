@@ -18,8 +18,8 @@ class Bcd extends Abc{
 public class PracticeOverriding {
 
 	public static void main(String[] args) {
-		Abc obj1=new Bcd();
-		//Bcd obj=new Bcd();
+		Abc obj1=new Abc();
+		Bcd obj=new Bcd();
 		obj1.show();
 		//System.out.println(obj.speed);
 		System.out.println(obj1.speed);		//method is overriden but not data members

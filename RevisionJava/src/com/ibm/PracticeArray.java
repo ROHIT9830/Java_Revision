@@ -26,8 +26,8 @@ public class PracticeArray {
 		System.out.println("---------------------");
 		System.out.println("Jagged Array:");			//Jagged Array
 		int g[][]= {{1,2,3,4},{1,2,3},{1,2},{1}};
-		for (int q=0;q<g.length;q++) {
-			for (int w=0; w<g[q].length;w++) {
+		for (int q=0;q<g.length;q++) {					//g.length gives the no. of rows
+			for (int w=0; w<g[q].length;w++) {			//g[q].length gives the no. of columns
 				System.out.print(g[q][w]+" ");
 			}
 			System.out.println();
